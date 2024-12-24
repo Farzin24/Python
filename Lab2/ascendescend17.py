@@ -5,7 +5,6 @@ for _ in range(n):
     value = int(input("Enter value:"))
     dictionary[key] = value
 
-
 ascending = dict(sorted(dictionary.items(), key=lambda item: item[1]))
 descending = dict(sorted(dictionary.items(), key=lambda item: item[1], reverse=True))
 
